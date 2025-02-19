@@ -85,11 +85,11 @@ if __name__ == "__main__":
     logger.debug(f"Cleaned Transcript: {cleaned_transcript}")
 
     # Identifying the team members mentioned in the transcript.
-    team_members = extract_team_members(cleaned_transcript)
+    team_members = list(sorted(extract_team_members(cleaned_transcript)))
     logger.debug(f"Team Members: {team_members}")
 
     # Parsing the transcript and extracting the JIRA tickets mentioned in the transcript.
-    jira_tickets = extract_jira_tickets(cleaned_transcript, VALID_JIRA_BOARDS)
+    jira_tickets = list(sorted(extract_jira_tickets(cleaned_transcript, VALID_JIRA_BOARDS)))
     logger.debug(f"JIRA Tickets: {jira_tickets}")
 
     # For each JIRA ticket mentioned in the transcript:
