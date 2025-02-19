@@ -1,0 +1,17 @@
+Rashmi: Good morning, team. Let's discuss updates on OSC 1, OSC - 2, and OSC-3. Any new issues?
+
+Deepa: OSC-1 is still blocked due to approvals for hosting on custom domain. I have informed Aman that the task will get delayed by 1 week.
+
+Varun: I'm also looking at OSC-2. I have raised the request for Jira Tokens, but the admin is on leave for next 2 days. I'll reach out to the admin once he is back.
+
+Aman: I'm working on OSC 3. It turns out it has dependencies on features from osc 2. Varun, I might need your help to proceed with my implementation, and for testing.
+
+Rashmi: Thanks, Aman. Let's circle back on OSC 2. Varun, do you see major delay?
+
+Varun: Yes, the Jira Team Admin is on leave for next 2 days. They would take 1 day to create the credentials once the admin is back. Also, I'd confirm with Ops if we have other ways to get this done sooner.
+
+Deepa: That sounds good. Also, for OSC 1, I'm aiming to finalize the Board UI updates after the setup is done. If it takes longer, I'll raise a risk in Slack.
+
+Aman: I'll make a note to check with Ops about Jira Token creation, so that OSC 2 doesn't delay OSC-3. Let's keep an eye on potential overlap.
+
+Rashmi: Good alignment, everyone. We'll regroup tomorrow to see if we can move these tickets forward.
